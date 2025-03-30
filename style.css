@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 30px 50px rgba(0,0,0,0.1);
+}
+
+.profile-section {
+  background: linear-gradient(135deg, #007bff, #00bcd4);
+  color: white;
+  width: 35%;
+  padding: 40px;
+  text-align: center;
+}
+
+.profile-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.profile-section h1 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.profile-section a {
+  display: inline-block;
+  background-color: white;
+  color: #007bff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profile-section a:hover {
+  background-color: #e6f7ff;
+}
+
+.content-section {
+  width: 65%;
+  padding: 40px;
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #333;
+}
+
